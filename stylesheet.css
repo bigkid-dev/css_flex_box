@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 236, 236);
+}
+
+main{
+    width:50%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+}
+.top-content{
+    background-color: rgb(228, 135, 28);
+    padding: 2em;
+    width:100%;
+}
+.top-content h3{
+    color: rgb(244, 246, 252);
+    padding-bottom: 20px;
+    font-size: 20pt;
+    
+}
+.top-content .top-p{
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    font-size: small;
+}
+.top-content .first_button{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    color: rgb(228, 135, 28);
+    font-size: small;
+    height:35px;
+    width: 120px;
+    border-width: 0pt;
+    border-color: rgb(228, 135, 28);
+    border-radius: 40px;
+}
+
+.down-content{
+    display: flex;
+    width:100%;
+}
+.down-content .down-left{
+    background-color: rgb(35, 61, 73);
+    padding: 2em;
+    width:100%;
+}
+.down-left .top-p{
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    font-size: small;
+}
+.down-left .second_button{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    color: rgb(35, 61, 73);
+    font-size: small;
+    height:35px;
+    width: 120px;
+    border-width: 0pt;
+    border-color: rgb(35, 61, 73);
+    border-radius: 40px;
+}
+.down-left h3{
+    color: rgb(244, 246, 252);
+    padding-bottom: 20px;
+    font-size: 20pt;
+    
+}
+.down-content .down-right{
+    background-color:rgba(19, 107, 85, 0.801);  
+    padding: 2em;
+    width:100%;
+}
+.down-right h3{
+    color: rgb(244, 246, 252);
+    padding-bottom: 20px;
+    font-size: 20pt;
+    
+}
+.down-right .top-p{
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    font-size: small;
+}
+.down-right .third_button{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    color: rgba(19, 107, 85, 0.801); 
+    font-size: small;
+    height:35px;
+    width: 120px;
+    border-width: 0pt;
+    border-color: rgba(19, 107, 85, 0.801); 
+    border-radius: 40px;
+}
